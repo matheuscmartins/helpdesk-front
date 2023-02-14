@@ -47,6 +47,7 @@ import { ChamadoListComponent } from './components/chamado/chamado-list/chamado-
 import { ChamadoCreateComponent } from './components/chamado/chamado-create/chamado-create.component';
 import { ChamadoUpdateComponent } from './components/chamado/chamado-update/chamado-update.component';
 import { ChamadoReadComponent } from './components/chamado/chamado-read/chamado-read.component';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
   declarations: [
@@ -100,6 +101,7 @@ import { ChamadoReadComponent } from './components/chamado/chamado-read/chamado-
     NgxMaskModule.forRoot()
   ],
   providers: [AuthInterceptorProvider],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
