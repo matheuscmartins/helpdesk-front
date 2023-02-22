@@ -2,8 +2,9 @@
 <div>
 ## Front-end desenvolvido em Angular.<br>
 ° Explorando a arquitetura MVC e componentes visuais do angular Material e Reactive forms.<br>
-° Com Conceitos básicos de Typescript, HTML5 e CSS3, Protocolo HTTP no padrão REST. <br><br>
-  
+° Com Conceitos básicos de Typescript, HTML5 e CSS3, Protocolo HTTP no padrão REST. <br>
+° Link do Beck-End: https://github.com/matheuscmartins/helpdesk-backend
+  <br><br>
 This project was generated with Angular CLI (https://github.com/angular/angular-cli) version 12.0.3.<br>
 </div>
 
